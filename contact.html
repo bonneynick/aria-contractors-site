@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | ARIA Construction Group</title>
+<meta name="description" content="Get in touch with ARIA Construction Group to discuss your insurance, commercial or residential project.">
+<link rel="icon" href="assets/logo-positive.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="contact">
+<header></header>
+<section class="hero" style="min-height:auto">
+  <div class="wrap" style="padding:118px 28px 104px">
+    <p class="eyebrow">Contact</p>
+    <h1>Let's talk about <span class="tealbar">your project.</span></h1>
+    <p>Have a project in mind or need more information about our services? We're here to help. Pop us a call or fill out the form and one of our team will get back to you shortly.</p>
+  </div>
+</section>
+<section>
+  <div class="wrap contact-grid">
+    <div class="cinfo reveal">
+      <p class="eyebrow">Get in touch</p>
+      <h2 style="margin:6px 0 36px">Contact us.</h2>
+      <div><div class="lbl">Call us</div><a href="tel:02081910961">0208 191 0961</a></div>
+      <div><div class="lbl">Email us</div><a href="mailto:info@ariacontractors.co.uk">info@ariacontractors.co.uk</a></div>
+      <div><div class="lbl">Visit us</div><p>191 Buckingham Drive,<br>Luton, LU2 9RE</p></div>
+      <div><div class="lbl">Online</div><a href="https://www.ariacontractors.co.uk">www.ariacontractors.co.uk</a></div>
+    </div>
+    <div class="reveal">
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+        <input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_KEY">
+        <input type="hidden" name="subject" value="New enquiry from ariacontractors.co.uk">
+        <input type="hidden" name="redirect" value="https://ariacontractors.co.uk/contact.html?sent=1">
+        <input type="checkbox" name="botcheck" style="display:none">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <input type="tel" name="phone" placeholder="Phone number">
+        <input type="text" name="enquiry_type" placeholder="Project type (e.g. insurance reinstatement)">
+        <textarea name="message" placeholder="Tell us about your project" required></textarea>
+        <button type="submit" class="btn btn-solid">Send enquiry</button>
+      </form>
+      <script>
+        (function(){
+          var p = new URLSearchParams(location.search);
+          if(p.get('sent')==='1'){
+            var f = document.getElementById('contact-form');
+            f.innerHTML = '<p style="color:var(--teal);font-weight:600">Thanks, we\'ll be in touch shortly.</p>';
+          }
+        })();
+      </script>
+    </div>
+  </div>
+</section>
+
+<footer></footer>
+<script src="assets/main.js"></script>
+</body>
+</html>
