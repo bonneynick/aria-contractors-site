@@ -17,7 +17,6 @@ const NAV = `
     <li><a href="how-we-work.html" data-p="how">How We Work</a></li>
     <li class="has-sub"><a href="projects.html" data-p="projects">Projects</a>
       <ul class="sub">
-        <li><a href="projects.html">Commercial Projects</a></li>
         <li><a href="projects.html#residential">Residential Projects</a></li>
         <li><a href="projects.html#live">Live Projects</a></li>
       </ul>
@@ -25,7 +24,6 @@ const NAV = `
     <li class="has-sub"><a href="about.html" data-p="about">About</a>
       <ul class="sub">
         <li><a href="about.html">About ARIA</a></li>
-        <li><a href="team.html">Our Team</a></li>
         <li><a href="accreditations.html">Accreditations</a></li>
       </ul>
     </li>
@@ -43,7 +41,6 @@ const FOOTER = `
     <div><h4>Site Map</h4><ul>
       <li><a href="how-we-work.html">How We Work</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html">Team</a></li>
       <li><a href="contact.html">Enquire</a></li>
     </ul></div>
     <div><h4>Sectors</h4><ul>
