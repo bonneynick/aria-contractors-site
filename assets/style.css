@@ -226,7 +226,7 @@ footer ul a:hover{color:var(--teal-light)}
 .acard .badge .bnum{font-size:1.05rem;font-weight:700;letter-spacing:.02em;line-height:1.05}
 .acard .badge .btag{font-size:.52rem;font-weight:600;letter-spacing:.16em;color:rgba(255,255,255,.7);margin-top:3px}
 .acard .badge .big{font-size:1.2rem;font-weight:700;letter-spacing:.06em}
-.acard .badge.badge-logo{background:#fff;border-color:var(--line);padding:8px}
+.acard .badge.badge-logo{background:#fff;border:none;width:128px;height:128px;padding:0}
 .acard .badge.badge-logo img{width:100%;height:100%;object-fit:contain}
 .acard h3{font-size:1.15rem;margin-bottom:4px}
 .acard .lab{font-size:.74rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-bottom:12px}
