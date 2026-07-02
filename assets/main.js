@@ -15,12 +15,6 @@ const NAV = `
       </ul>
     </li>
     <li><a href="how-we-work.html" data-p="how">How We Work</a></li>
-    <li class="has-sub"><a href="projects.html" data-p="projects">Projects</a>
-      <ul class="sub">
-        <li><a href="projects.html#residential">Residential Projects</a></li>
-        <li><a href="projects.html#live">Live Projects</a></li>
-      </ul>
-    </li>
     <li class="has-sub"><a href="about.html" data-p="about">About</a>
       <ul class="sub">
         <li><a href="about.html">About ARIA</a></li>
